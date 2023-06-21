@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.net.URL;
 
 public class WeatherAPI {
-    private static final String API_KEY = "58c0a39b1c92a8e77fa61061a0896332\n";
+    private static final String API_KEY = "SUA_CHAVE_API";
     private static final String API_URL = "https://api.openweathermap.org/data/2.5/forecast?q=%s&appid=%s";
 
     public static String getWeatherForecast(String city) throws IOException {
